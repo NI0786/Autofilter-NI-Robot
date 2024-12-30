@@ -1,6 +1,6 @@
 FROM python:3.12-slim
-WORKDIR /app
-COPY . /app/
+WORKDIR /Autofilter-NI-Robot 
+COPY . /Autofilter-NI-Robot 
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt
 EXPOSE 8080
